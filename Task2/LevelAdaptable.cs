@@ -8,5 +8,8 @@ namespace ConsoleApp32
 {
     internal interface LevelAdjustable
     {
+        int Level { get; }
+        
+        void SetLevel(int level);
     }
 }
