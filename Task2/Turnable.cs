@@ -8,5 +8,8 @@ namespace ConsoleApp32
 {
     internal interface Turnable
     {
+         bool IsOn { get; }
+         void TurnOn();
+         void TurnOff();
     }
 }
